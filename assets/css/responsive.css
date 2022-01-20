@@ -1,0 +1,77 @@
+/* Mobile */
+@media (max-width: 740px) {
+    .ful-width-phone{
+        width: 100% !important;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    #nav li:first-child>a{
+        display: inline-block;
+    }
+    #header #nav>li{
+        display: block;
+    }
+    #nav>li>a{
+        display: block;
+    }
+    #header #nav .subnav{
+        position: initial;
+        background-color: black;
+    }
+    #header #nav .subnav a{
+        color: white;
+        padding: 5px 40px;
+    }
+    .search_button{
+        display: none;
+    }
+    #header .menu{
+        display: block;
+        line-height:46px;
+        color: white;
+        font-size: 20px;
+        float: right;
+        padding: 0 13px;
+    }
+    #header .menu:hover{
+        background-color: rgb(124, 123, 123);
+    }
+    #content .team-section .person{
+        width: initial;
+        float: none;
+    }
+    .member-avatar {
+        width: 60%;
+    }
+    #content .name {
+        margin: 15px 0 5px 0;
+    }
+    .tour_places {
+        padding: 0;
+    }
+    .tour_places .places{
+        float: none;
+        width: initial;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .col-half{
+        float: none;
+        width: initial;
+    }
+    .contact {
+        margin-bottom: 0;
+    }
+    .form-control{
+        width: 100%;
+    }
+    .buy-button-phone{
+        width: calc(100% - 5px);
+        background-color: white;
+        color: black;
+    }
+}
